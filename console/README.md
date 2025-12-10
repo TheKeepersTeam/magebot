@@ -1,54 +1,56 @@
 # MageBot
 
-MageBot est un jeu de duel magique inspiré de l’univers Harry Potter, où vous affrontez une intelligence artificielle en utilisant des sorts. Développé par l'équipe ZIOS.
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
-## Fonctionnalités
+MageBot is a magical duel game inspired by the Harry Potter universe, where you face an artificial intelligence using spells. Developed by the ZIOS team.
 
-- **Duel magique contre IA** : Système de sorts (attaque, soin, résistance) avec gestion de ressources (PV, Résistance, Mana).
-- **Versions disponibles** :
-  - Console : Version complète et avancée pour duel en ligne de commande.
-  - Discord : (À venir) Intégration avec l'API Discord pour interactions communautaires.
-  - Navigateur : (À l'étude) Version web avec graphismes 2D.
-- **IA intelligente** : Utilise un algorithme Minimax pour des décisions stratégiques, prenant en compte PV, résistance et mana.
-- **Progression et statistiques** : (À venir) Classements, sauvegarde de parties.
+## Features
+
+- **Magical Duel Against AI** : Spell system (attack, healing, resistance) with resource management (HP, Resistance, Mana).
+- **Available Versions** :
+  - Console : Complete and advanced version for command-line duels.
+  - Discord : (Upcoming) Integration with Discord API for community interactions.
+  - Browser : (Under study) Web version with 2D graphics.
+- **Intelligent AI** : Uses a Minimax algorithm for strategic decisions, considering HP, resistance, and mana.
+- **Progression and Statistics** : (Upcoming) Rankings, game saves.
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository :
    ```bash
-   git clone https://github.com/votre-username/magebot.git
+   git clone https://github.com/your-username/magebot.git
    cd magebot
    ```
 
-2. Installez les dépendances :
+2. Install dependencies :
    ```bash
    pip install -r requirements.txt
    ```
 
-   **Dépendances** : `colorama` pour la coloration du texte en console.
+   **Dependencies** : `colorama` for console text coloring.
 
-## Utilisation
+## Usage
 
-- **Version Console** (recommandée, la plus avancée) :
+- **Console Version** (recommended, most advanced) :
   ```bash
   python MageBot/console_version/magebotcli.py
   ```
-  Tapez `help` pour voir les commandes, `start_dual` pour lancer un duel contre l'IA.
+  Type `help` for available commands, `start_dual` to start a duel against the AI.
 
-- **Version Discord** : (À venir) Ajoutez le bot à votre serveur et utilisez les commandes.
-- **Version Web** : (À venir) Ouvrez dans un navigateur.
+- **Discord Version** : (Upcoming) Add the bot to your server and use commands.
+- **Web Version** : (Upcoming) Open in a browser.
 
 ## Changelog
 
-| Date       | Version | Nouveautés / Modifications |
-|------------|---------|----------------------------|
-| 2025-12-10 | 1.1.4   | Améliorations IA (prise en compte mana/résistance dans heuristique, évitement soins à PV max), UI colorée au démarrage, ajout commande 'about', version console la plus avancée |
-| 2025-09-24 | 0.1.0   | Création du projet, premières fonctionnalités console et Discord |
+| Date       | Version | New Features / Modifications |
+|------------|---------|------------------------------|
+| 2025-12-10 | 1.1.4   | AI improvements (mana/resistance in heuristic, avoid healing at max HP), colored startup UI, added 'about' command, console version is the most advanced |
+| 2025-09-24 | 0.1.0   | Project creation, initial console and Discord features |
 
-## Contributeurs
+## Contributors
 
-- Équipe ZIOS : Développement et maintenance.
+- ZIOS Team : Development and maintenance.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+This project is under the MIT license. See the LICENSE file for more details.
