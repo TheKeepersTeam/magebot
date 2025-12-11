@@ -42,11 +42,12 @@ MageBot is a magical duel game inspired by the Harry Potter universe, where you 
 
 ## Changelog
 
-| Date       | Version | New Features / Modifications |
-|------------|---------|------------------------------|
-| 2025-12-10 | 1.1.6   | Added spell effects (freeze, paralyze, burn) with chances, adjusted spell values for better balance, updated duel state display to show active effects |
-| 2025-12-10 | 1.1.4   | AI improvements (mana/resistance in heuristic, avoid healing at max HP), colored startup UI, added 'about' command, console version is the most advanced |
-| 2025-09-24 | 0.1.0   | Project creation, initial console and Discord features |
+| Date       | Version | New Features / Modifications | Type de program |
+|------------|---------|------------------------------|-----------------|
+| 2025-12-10 | 1.1.7   | Balanced Glacies spell: reduced freeze chance to 30%, increased damage to 4 for better gameplay variety | Console |
+| 2025-12-10 | 1.1.6   | Added spell effects (freeze, paralyze, burn) with chances, adjusted spell values for better balance, updated duel state display to show active effects | Console |
+| 2025-12-10 | 1.1.4   | AI improvements (mana/resistance in heuristic, avoid healing at max HP), colored startup UI, added 'about' command, console version is the most advanced | Console |
+| 2025-09-24 | 0.1.0   | Project creation, initial console and features | Console |
 
 ## Contributors
 
