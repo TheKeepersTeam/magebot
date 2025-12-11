@@ -6,7 +6,7 @@ MageBot is a magical duel game inspired by the Harry Potter universe, where you 
 
 ## Features
 
-- **Magical Duel Against AI** : Spell system (attack, healing, resistance) with resource management (HP, Resistance, Mana).
+- **Magical Duel Against AI** : Spell system (attack, healing, resistance) with resource management (HP, Resistance, Mana) and temporary effects (freeze, paralyze, burn).
 - **Available Versions** :
   - Console : Complete and advanced version for command-line duels.
   - Discord : (Upcoming) Integration with Discord API for community interactions.
@@ -44,6 +44,7 @@ MageBot is a magical duel game inspired by the Harry Potter universe, where you 
 
 | Date       | Version | New Features / Modifications |
 |------------|---------|------------------------------|
+| 2025-12-10 | 1.1.6   | Added spell effects (freeze, paralyze, burn) with chances, adjusted spell values for better balance, updated duel state display to show active effects |
 | 2025-12-10 | 1.1.4   | AI improvements (mana/resistance in heuristic, avoid healing at max HP), colored startup UI, added 'about' command, console version is the most advanced |
 | 2025-09-24 | 0.1.0   | Project creation, initial console and Discord features |
 
